@@ -1,7 +1,21 @@
 .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 0 2rem 0 2rem;
-    padding:1rem 0.5rem;
-}
-.card:hover{
+    padding:2rem 0.5rem;
+    border-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
     background-color: #CAA892;
+    font-family: 'Padauk', 400, sans-serif;
+}
+.card h1{
+    font-size: larger;
+}
+.card-image{
+    margin-right: 2rem;
+    margin-left: 1rem;
 }

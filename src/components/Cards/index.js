@@ -2,15 +2,15 @@ import React from 'react';
 
 import './style.css';
 
-function Cards({ url , paragrafo , title } ) {
+function Cards(props) {
   return (
       <div className='card'>
           <div className='card-image'>
-            <img src={url} alt='card-logo' />
+            <img src={props.url} alt='card-logo' />
           </div>
           <div className='card-info'>
-            <p>{paragrafo}</p>
-            <h1>{title}</h1>
+            <h1>{props.title}</h1>
+            <p>{props.paragrafo}</p>
           </div>
       </div>
   );
