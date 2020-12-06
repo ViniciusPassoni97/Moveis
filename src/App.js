@@ -1,10 +1,12 @@
 import './assets/style/globalStyle.css';
+import './style.css';
+import Header from './components/Header/index.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Ola mundo</h1>
+        <Header />
       </header>
     </div>
   );

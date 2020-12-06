@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.text-group{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.text-group:hover{
+    padding:3px 5px;
+    background-color: azure;
+    border-radius: 0 5px 0 5px;
+}
+.button-header{
+    margin-left: 2rem;
+}
+.button-group{
+    background-color: darksalmon;
+    color: aliceblue;
+    padding:6px 10px;
+    border: 0;
+    border-radius: 0 5px 0 5px;
+    transition: 0.5s;
+}
+.button-group:hover{
+    background-color: indianred;
+}
