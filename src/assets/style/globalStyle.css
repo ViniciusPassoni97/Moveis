@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input, button{
+  cursor: pointer;
+}
+
+body{
+  height: 3000px;
+}
