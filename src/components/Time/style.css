@@ -1,0 +1,49 @@
+.time{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-img-logo{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 4rem 0 4rem 0;
+}
+.time-img{
+    width: 25rem;
+    height: 25rem;
+    border: 2px solid #B0855B;
+    padding:1rem 0;
+    border-radius: 4rem 0 4rem 0;
+}
+.time-info{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-years{
+    font-family: 'Padauk', 400, sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+.text-years-info{
+    text-align: center;
+    font-family: 'Padauk', 400, sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.time-info-btn{
+    background-color: #37806B;
+    color: aliceblue;
+    padding:6px 10px;
+    border: 0;
+    border-radius: 0 5px 0 5px;
+    transition: 0.5s;
+    margin-top: 2rem;
+}
+.time-info-btn:hover{
+    background-color: rgb(52, 133, 36);
+}
