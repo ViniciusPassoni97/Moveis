@@ -7,8 +7,9 @@
         display: block;
     }
     .image{
-        margin-top: 2rem;
-        margin-left: 10rem;
+        margin-top:5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
 .text{
