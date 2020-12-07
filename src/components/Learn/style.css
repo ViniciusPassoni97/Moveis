@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+.about-image{
+    width: 25rem;
+    height: 25rem;
+    border: 2px solid #B0855B;
+    padding:1rem 0;
+    border-radius: 4rem 0 4rem 0;
+}
+.about-image-img{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 25rem;
+    height: 25rem;
+}
+.about-info{
+    margin-left: 7rem;
+}
+.about-info-header{
+    font-family: 'Padauk', 400, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    color: rgb(104, 100, 100);
+}
+.about-info-title{
+    font-family: 'Padauk', 400, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.about-info-paragrafo{
+    font-family: 'Padauk', 400, sans-serif;
+    font-size: 0.8rem;
+    padding: 1rem;
+    color: rgb(136, 132, 132);
+}
+.about-info-btn{
+    background-color: #37806B;
+    color: aliceblue;
+    padding:6px 10px;
+    border: 0;
+    border-radius: 0 5px 0 5px;
+    transition: 0.5s;
+    margin-top: 2rem;
+}
+.about-info-btn:hover{
+    background-color: rgb(52, 133, 36);
+}

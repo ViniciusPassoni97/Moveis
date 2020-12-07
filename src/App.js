@@ -4,7 +4,8 @@ import ellipse1 from './assets/icons/vector1.png';
 import ellipse2 from './assets/icons/vector2.png';
 import Header from './components/Header/index.js';
 import Home from './components/Home/index.js';
-import Services from './components/Services/index.js'
+import Services from './components/Services/index.js';
+import Learn from './components/Learn/index.js';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Services />
           <Services />
         </div>
+        <Learn />
       </header>
     </div>
   );
