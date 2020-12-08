@@ -1,0 +1,7 @@
+.people-card{
+    display: flex;
+    align-items: center;
+}
+.people{
+    padding: 2rem;
+}

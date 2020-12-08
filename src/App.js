@@ -8,6 +8,7 @@ import Services from './components/Services/index.js';
 import Learn from './components/Learn/index.js';
 import Time from './components/Time/index.js';
 import Done from './components/Done/index.js';
+import Peoples from './components/Peoples/index.js';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Learn />
         <Time />
         <Done />
+        <Peoples />
       </header>
     </div>
   );
