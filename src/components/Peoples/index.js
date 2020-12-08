@@ -8,8 +8,8 @@ function Peoples() {
   return (
       <div className='people'>
           <div className='people-info'> 
-            <p className=''>TESTIMONIALS</p>
-            <p className=''>Client says about us</p>
+            <p className='people-info-title'>TESTIMONIALS</p>
+            <p className='people-info-text'>Client says about us</p>
           </div>
           <div className='people-card'>
               <PeopleCard url={People1}/>
