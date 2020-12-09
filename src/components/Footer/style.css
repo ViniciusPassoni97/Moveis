@@ -62,3 +62,11 @@
 .footer-img-group-div{
     border-radius: 100%;
 }
+@media(max-width:800px){
+    .footer-img-icons{
+        display: block;
+    }
+    .footer-img-icons-card{
+        display: block;
+    }
+}
