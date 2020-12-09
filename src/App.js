@@ -11,6 +11,7 @@ import Done from './components/Done/index.js';
 import Peoples from './components/Peoples/index.js';
 import Blog from './components/Blog/index.js';
 import Sign from './components/Sign/index.js';
+import Footer from './components/Footer/index.js';
 
 function App() {
   return (
@@ -47,6 +48,13 @@ function App() {
         <div className='sign-index-div'>
             <Sign />
         </div>
+      </div>
+      <div className='footer-index'>
+        <div className='footer-index-div'>
+            <Footer />
+        </div>
+        <p className='footer-index-line'></p>
+        <p className='footer-index-text'>Copyright @ 2020 Brandoxide.all right reserved.</p>
       </div>
     </div>
   );
