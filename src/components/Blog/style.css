@@ -1,6 +1,11 @@
 .blog-header{
     text-align: center;
 }
+@media(max-width: 900px){
+    .blog-image{
+        display: block;
+    }
+}
 .blog-header-text{
     padding: 1rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
