@@ -10,6 +10,7 @@ import Time from './components/Time/index.js';
 import Done from './components/Done/index.js';
 import Peoples from './components/Peoples/index.js';
 import Blog from './components/Blog/index.js';
+import Sign from './components/Sign/index.js';
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
       </div>
       <div className='sign-index'>
         <div className='sign-index-div'>
-            
+            <Sign />
         </div>
       </div>
     </div>
