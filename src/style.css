@@ -1,4 +1,4 @@
-.App {
+.App-header {
     height: 100%;
     width: 80%;
     margin-left: auto;
@@ -33,4 +33,12 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 10rem;
+}
+.blog-index{
+    background-color: rgb(236, 238, 240);
+}
+.blog-index-div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

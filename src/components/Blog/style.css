@@ -1,0 +1,66 @@
+.blog-header{
+    text-align: center;
+}
+.blog-header-text{
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: rgb(104, 100, 100);
+}
+.blog-header-info{
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: rgb(104, 100, 100);
+}
+.blog-image{
+    display: flex;
+}
+.blog-image-card{
+    padding: 2rem;
+}
+.blog-image-card-img-div{
+    align-items: center;
+    width: 15rem;
+    height: 11.5rem;
+    border: 2px solid #B0855B;
+    border-radius: 4rem 0 4rem 0;
+    margin-left: 4rem;
+}
+.blog-image-card .blog-image-card-img{
+    padding: 1rem;
+    width: 17rem;
+    height: 13rem;
+    border-radius: 4rem 4rem 4rem 0;
+}
+.blog-info{
+    text-align: center;
+    margin-top: 3rem;
+}
+.blog-image-card-text{
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(104, 100, 100);
+}
+.blog-image-card-info{
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: rgb(104, 100, 100);
+}
+.blog-image-card-button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #37806B;
+    color: aliceblue;
+    padding:0.5rem 1rem;
+    border: 0;
+    margin-top: 2rem;
+    border-radius: 0 5px 0 5px;
+    transition: 0.5s;
+}
+.blog-image-card-button:hover{
+    background-color: rgb(52, 133, 36);
+}

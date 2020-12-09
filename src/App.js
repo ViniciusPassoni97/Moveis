@@ -9,6 +9,7 @@ import Learn from './components/Learn/index.js';
 import Time from './components/Time/index.js';
 import Done from './components/Done/index.js';
 import Peoples from './components/Peoples/index.js';
+import Blog from './components/Blog/index.js';
 
 function App() {
   return (
@@ -36,6 +37,16 @@ function App() {
         <Done />
         <Peoples />
       </header>
+      <div className='blog-index'>
+        <div className='blog-index-div'>
+          <Blog />
+        </div>
+      </div>
+      <div className='sign-index'>
+        <div className='sign-index-div'>
+            
+        </div>
+      </div>
     </div>
   );
 }
