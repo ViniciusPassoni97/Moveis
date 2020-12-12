@@ -9,6 +9,7 @@ function Header() {
         <img src={logo} alt='logo'/>
       </div>
       <div className='info'>
+        <div className='text-group-div'>
         <p className='text-group'>Home</p>
         <p className='text-group'>Project</p>
         <p className='text-group'>Services</p>
@@ -16,6 +17,7 @@ function Header() {
         <p className='text-group'>Blog</p>
         <p className='text-group'>Shop</p>
         <p className='text-group'>Contact</p>
+        </div>
         <div className='button-header'>
           <button className='button-group' placeholder='Login'>Login</button>
         </div>

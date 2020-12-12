@@ -8,6 +8,9 @@
     .time{
         display: block;
     }
+    .time-img{
+        margin-left: 2rem;
+    }
 }
 .time-img-logo{
     margin-top: 1rem;

@@ -3,7 +3,7 @@ import Card from '../Cards/index.js';
 import LogoCardService from '../../assets/icons/service.png';
 import './style.css';
 
-// import { Container } from './styles';
+import './style.css';
 
 function Services() {
   return (

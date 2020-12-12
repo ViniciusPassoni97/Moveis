@@ -59,6 +59,9 @@
 .footer-img-icons-card{
     display: flex;
 }
+.footer-img-icons{
+    position: relative;
+}
 .footer-img-group-div{
     border-radius: 100%;
 }
@@ -68,5 +71,8 @@
     }
     .footer-img-icons-card{
         display: block;
+    }
+    .footer{
+        
     }
 }

@@ -1,3 +1,8 @@
 .header-service{
     display: flex;
 }
+@media(max-width: 800px){
+    .div-card{
+        display: flex;
+    }
+}

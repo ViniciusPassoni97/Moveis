@@ -67,6 +67,11 @@
     .footer-index-div{
         width: 100%;
     }
+    .services-app{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
 }
 .footer-index-line{
     margin-top: -1rem;

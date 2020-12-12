@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className='footer-index'>
         <div className='footer-index-div'>
-            <Footer />
+        <Footer />
         </div>
         <p className='footer-index-line'></p>
         <p className='footer-index-text'>Copyright @ 2020 Brandoxide.all right reserved.</p>

@@ -4,6 +4,14 @@
     justify-content: space-between;
     padding: 20px;
 }
+.text-group-div{
+    display: flex;
+}
+@media(max-width:800px){
+    .text-group-div{
+        display: none;
+    }
+}
 .info{
     display: flex;
     align-items: center;
